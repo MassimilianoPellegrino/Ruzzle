@@ -123,6 +123,7 @@ public class FXMLController {
 
     @FXML
     void handleReset(ActionEvent event) {
+    	this.txtResult.clear();
     	model.reset();
     }
     
